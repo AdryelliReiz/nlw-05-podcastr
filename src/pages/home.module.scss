@@ -30,6 +30,9 @@
         height: 6rem;
         border: 1rem;
       }
+      .thumbnail {
+        width: 7rem;
+      }
 
       .episodesDetails {
         flex: 1;
@@ -163,6 +166,54 @@
 
         &:hover {
           filter: brightness(0.95);
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 1380px) {
+  .homePage {
+    padding: 3rem;
+  }
+
+  .latestEpisodes {
+    ul {
+      display: block;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .allEpisodes {
+    padding-bottom: 3rem;
+  
+    table {
+  
+      th, td {
+        padding: 1.25rem 1rem;
+        border-bottom: 3px solid var(--gray-100);
+      }
+  
+      th {
+        font: 500 1rem Lexend, sans-serif;
+      }
+  
+      td {
+        font-size: 1rem;
+  
+        img {
+          border-radius: 0.25rem;
+        }
+  
+        button {
+          width: 3rem;
+          height: 3rem;
+          border: 1.5px solid var(--gray-100);
+  
+          img {
+            width: 3rem;
+            height: 3rem;
+          }
         }
       }
     }
