@@ -113,103 +113,98 @@
 .allEpisodes {
   padding-bottom: 2rem;
 
-  table {
-    width: 100%;
+  table { 
+    width: 100%; 
 
-    th, td {
-      padding: 0.75rem 1rem;
-      border-bottom: 1px solid var(--gray-100);
-    }
-
+    th, td { 
+      padding: 0.75rem 1rem; 
+      border-bottom: 1px solid var(--gray-100); 
+    } 
     th {
-      color: var(--gray-200);
-      text-transform: uppercase;
-      font: 500 0.75rem Lexend, sans-serif;
-      text-align: left;
-    }
-
-    td {
-      font-size: 0.875rem;
-
-      img {
-        width: 2.5rem;
-        height: 2.5rem;
-        border-radius: 0.5rem;
-      }
-
-      a {
-        color: var(--gray-800);
-        font-family: Lexend, sans-serif;
-        font-weight: 600;
-        text-decoration: none;
-        line-height: 1.4rem;
-        font-size: 1rem;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-
-      button {
-        width: 2rem;
-        height: 2rem;
-        background: var(--white);
-        border: 1px solid var(--gray-100);
-        border-radius: 0.5rem;
-        font-size: 0;
-        transition: filter 0.2s;
-
-        img {
-          width: 2rem;
-          height: 2rem;
+       color: var(--gray-200); 
+       text-transform: uppercase; 
+       font: 500 0.75rem Lexend, sans-serif; 
+       text-align: left; 
+    } 
+    td { 
+      font-size: 0.875rem; 
+      
+      img { 
+        width: 2.5rem; 
+        height: 2.5rem; 
+        border-radius: 0.5rem; 
+      } 
+      a { 
+        color: var(--gray-800); 
+        font-family: Lexend, sans-serif; 
+        font-weight: 600; 
+        text-decoration: none; 
+        line-height: 1.4rem; 
+        font-size: 1rem; 
+        
+        &:hover { 
+          text-decoration: underline; 
+        } 
+      } 
+      button { 
+        width: 2rem; 
+        height: 2rem; 
+        background: var(--white); 
+        border: 1px solid var(--gray-100); 
+        border-radius: 0.5rem; 
+        font-size: 0; 
+        transition: filter 0.2s; 
+        
+        img { 
+          width: 2rem; 
+          height: 2rem; 
         }
 
-        &:hover {
-          filter: brightness(0.95);
-        }
-      }
-    }
-  }
+        &:hover { 
+          filter: brightness(0.95); 
+        } 
+      } 
+    } 
+  }  
 }
 
-@media(max-width: 1380px) {
+
+@media(max-width: 1600px) {
   .homePage {
-    padding: 3rem;
+    padding: 2rem;
   }
 
   .latestEpisodes {
     ul {
       display: block;
-      margin-bottom: 1.5rem;
+      margin: 0;
+
+      li {
+        max-width: 45rem;
+        margin-bottom: 1rem;
+      }
     }
   }
 
   .allEpisodes {
     padding-bottom: 3rem;
-  
+  }
+}
+@media(max-width: 990px) {
+  .homePage {
+    height: calc(100vh - 18rem);
+  }
+  .allEpisodes {
     table {
-  
       th, td {
-        padding: 1.25rem 1rem;
-        border-bottom: 3px solid var(--gray-100);
+        padding: 0.5rem;
+        border-bottom: 3px solid var(--gray-100); 
       }
-  
-      th {
-        font: 500 1rem Lexend, sans-serif;
-      }
-  
       td {
-        font-size: 1rem;
-  
-        img {
-          border-radius: 0.25rem;
-        }
-  
         button {
           width: 3rem;
           height: 3rem;
-          border: 1.5px solid var(--gray-100);
-  
+
           img {
             width: 3rem;
             height: 3rem;
