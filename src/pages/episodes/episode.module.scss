@@ -91,10 +91,17 @@
 
 @media(max-width:990px) {
     .container {
-      height: calc(100vh - 20rem);
+      height: calc(100vh - 21rem);
     }
     .episode {
       padding: 3rem 2.5rem;
+
+      .thumbnailContainer {
+        button {
+          width: 4rem;
+          height: 4rem;
+        }
+      }
 
       .description {
         font-size: 1.2rem;
