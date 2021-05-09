@@ -12,7 +12,7 @@ The project was built during Rocketseat's Next Level Week # 05 RactJS Trail.
 </p></br>
 
 ## About
-The podcast is a project made during Rockeseat's NEW # 5. It was created with React.js + Next.js and Typescript. The project consists of a podcast website by Rocketseat that addresses topics about the universe of programming with the participation of several programmers specialized in the subject. Basic, Podcastr is a podcast for programmers.
+The podcast is a project made during Rockeseat's NLW # 5. It was created with React.js + Next.js and Typescript. The project consists of a podcast website by Rocketseat that addresses topics about the universe of programming with the participation of several programmers specialized in the subject. Basically, Podcastr is a podcast for programmers.
 
 ## How to use
 Before you begin, you will need to have the following tools installed on your machine:</br>
